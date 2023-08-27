@@ -1,0 +1,46 @@
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+} */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+
+.nav {
+  display: flex;
+}
+li {
+  margin: auto;
+  padding-right: 25px;
+  list-style-type: none;
+  font-size: small;
+  font-family: italic "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+li a {
+  text-decoration: none;
+  color: #0c635e;
+  text-transform: uppercase;
+}
+
+li a:hover {
+  border-top: none;
+  border-right: 2px solid #0c635e;
+  border-left: 2px solid #0c635e;
+  border-bottom: none;
+  border-radius: 50px;
+  padding: 0px 10px 0px 10px;
+}
+
+/* section  */
+.sec-one {
+  display: flex;
+  justify-content: space-between;
+}
+
+.greeting-sec h1 {
+  text-transform: capitalize;
+}
